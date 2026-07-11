@@ -5,15 +5,13 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
 
-// TODO: replace these placeholder Event Type IDs with the real ones from your
-// Cal.com Team setup — one per barber, per service. "any" should be the Round
-// Robin team event type.
+// Cal.com Event Type IDs — currently one shared event type across all barbers.
 const EVENT_TYPE_IDS: Record<string, Record<string, string>> = {
   haircut: {
-    any: "PLACEHOLDER_ANY_EVENT_TYPE_ID",
-    muntadher: "PLACEHOLDER_MUNTADHER_EVENT_TYPE_ID",
-    ali: "PLACEHOLDER_ALI_EVENT_TYPE_ID",
-    yas: "PLACEHOLDER_YAS_EVENT_TYPE_ID",
+    any: "6271983",
+    muntadher: "6271983",
+    ali: "6271983",
+    yas: "6271983",
   },
 };
 

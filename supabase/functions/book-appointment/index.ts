@@ -5,14 +5,13 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
 
-// Same placeholder map as get-availability — keep both files in sync when you
-// fill in real IDs.
+// Same event type map as get-availability — keep both in sync.
 const EVENT_TYPE_IDS: Record<string, Record<string, string>> = {
   haircut: {
-    any: "PLACEHOLDER_ANY_EVENT_TYPE_ID",
-    muntadher: "PLACEHOLDER_MUNTADHER_EVENT_TYPE_ID",
-    ali: "PLACEHOLDER_ALI_EVENT_TYPE_ID",
-    yas: "PLACEHOLDER_YAS_EVENT_TYPE_ID",
+    any: "6271983",
+    muntadher: "6271983",
+    ali: "6271983",
+    yas: "6271983",
   },
 };
 
