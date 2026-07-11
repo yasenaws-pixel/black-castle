@@ -3,9 +3,9 @@ import { useState } from "react";
 import { ChatBubble } from "@/components/ChatBubble";
 import { BookingFlow } from "@/components/BookingFlow";
 import heroShop from "@/assets/hero-shop.jpg";
-import muntadherImg from "@/assets/barber-muntadher.jpg";
-import aliImg from "@/assets/barber-ali.jpg";
-import yasImg from "@/assets/barber-yas.jpg";
+import test1 from "@/assets/barber-test1.jpg";
+import aliImg from "@/assets/barber-test2.jpg";
+import yasImg from "@/assets/barber-test3.jpg";
 import { Scissors } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -14,24 +14,24 @@ export const Route = createFileRoute("/")({
 
 const BARBERS = [
   {
-    id: "muntadher",
-    name: "Muntadher",
+    id: "test1",
+    name: "test1",
     role: "Master Barber",
-    price: 35000,
+    price: 25000,
     bio: "Fifteen years behind the chair. Precision fades, straight-razor shaves, and the kind of quiet confidence you only get from thousands of haircuts.",
-    img: muntadherImg,
+    img: test1,
   },
   {
-    id: "ali",
-    name: "Ali",
+    id: "test2",
+    name: "test2",
     role: "Senior Barber",
     price: 25000,
     bio: "Modern textures, sharp lineups, and clean beard work. Ali brings a fresh eye and steady hand — his chair is the one for a bold new look.",
     img: aliImg,
   },
   {
-    id: "yas",
-    name: "Yas",
+    id: "test3",
+    name: "test3",
     role: "Senior Barber",
     price: 25000,
     bio: "Classic scissor cuts and skin fades with a friendly, easy chair-side manner. Yas will make you comfortable before you even sit down.",
@@ -60,7 +60,7 @@ function Nav() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-display text-xl">
           <Scissors className="h-4 w-4 text-primary" />
-          <span>YAS-Studio</span>
+          <span>Black-Castle</span>
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           <a href="#barbers" className="hover:text-foreground transition">Barbers</a>
@@ -81,7 +81,7 @@ function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroShop}
-          alt="YAS-Studio barbershop interior lit by amber lamps"
+          alt="Black-castle barbershop interior lit by amber lamps"
           className="w-full h-full object-cover opacity-40"
           width={1024}
           height={1024}
@@ -95,7 +95,7 @@ function Hero() {
           <span className="text-gradient-ember">Three masters.</span>
         </h1>
         <p className="mt-8 text-lg text-muted-foreground max-w-xl leading-relaxed">
-          Book Muntadher, Ali, or Yas in under a minute. Skin fades, straight-razor shaves,
+          Book test1, test2, or test3 in under a minute. Skin fades, straight-razor shaves,
           and beard work done the way it's supposed to be done.
         </p>
         <div className="mt-10 flex flex-wrap gap-4">
@@ -199,7 +199,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
         <div>
           <div className="flex items-center gap-2 font-display text-2xl mb-3">
-            <Scissors className="h-4 w-4 text-primary" /> YAS-Studio
+            <Scissors className="h-4 w-4 text-primary" /> Black-Castle
           </div>
           <p className="text-sm text-muted-foreground max-w-xs">
             A modern barbershop rooted in Baghdad craft. Walk-ins welcome, appointments preferred.
@@ -220,7 +220,7 @@ function Footer() {
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-border/50 text-xs text-muted-foreground flex flex-wrap justify-between gap-2">
-        <span>© {new Date().getFullYear()} YAS-Studio Barbershop</span>
+        <span>© {new Date().getFullYear()} Black-Castle Barbershop</span>
         <span>بغداد · Baghdad</span>
       </div>
     </footer>
