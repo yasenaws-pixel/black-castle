@@ -60,7 +60,7 @@ function Nav() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-display text-xl">
           <Scissors className="h-4 w-4 text-primary" />
-          <span>Nusub</span>
+          <span>YAS-Studio</span>
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           <a href="#barbers" className="hover:text-foreground transition">Barbers</a>
@@ -81,7 +81,7 @@ function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroShop}
-          alt="Nusub barbershop interior lit by amber lamps"
+          alt="YAS-Studio barbershop interior lit by amber lamps"
           className="w-full h-full object-cover opacity-40"
           width={1024}
           height={1024}
@@ -89,7 +89,7 @@ function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
       </div>
       <div className="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
-        <p className="text-primary tracking-[0.3em] text-xs uppercase mb-6">Baghdad — Since 2019</p>
+        <p className="text-primary tracking-[0.3em] text-xs uppercase mb-6">BAGHDAD — SINCE 2022</p>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl leading-[1.05] max-w-4xl">
           A proper chair.<br />
           <span className="text-gradient-ember">Three masters.</span>
@@ -107,7 +107,7 @@ function Hero() {
           </a>
         </div>
         <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg text-sm">
-          <Stat k="15+" v="Years crafting cuts" />
+          <Stat k="3+" v="Years crafting cuts" />
           <Stat k="3" v="Master barbers" />
           <Stat k="Sun–Thu" v="10:00 – 22:00" />
         </div>
@@ -199,7 +199,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
         <div>
           <div className="flex items-center gap-2 font-display text-2xl mb-3">
-            <Scissors className="h-4 w-4 text-primary" /> Nusub
+            <Scissors className="h-4 w-4 text-primary" /> YAS-Studio
           </div>
           <p className="text-sm text-muted-foreground max-w-xs">
             A modern barbershop rooted in Baghdad craft. Walk-ins welcome, appointments preferred.
@@ -215,12 +215,12 @@ function Footer() {
         </div>
         <div>
           <h4 className="font-display text-lg mb-3">Visit</h4>
-          <p className="text-sm text-muted-foreground">Baghdad, Iraq</p>
+          <p className="text-sm text-muted-foreground">Iraq/Baghdad/AL-Yarmook</p>
           <p className="text-sm text-muted-foreground mt-1">Chat with the front desk anytime →</p>
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-border/50 text-xs text-muted-foreground flex flex-wrap justify-between gap-2">
-        <span>© {new Date().getFullYear()} Nusub Barbershop</span>
+        <span>© {new Date().getFullYear()} YAS-Studio Barbershop</span>
         <span>بغداد · Baghdad</span>
       </div>
     </footer>
