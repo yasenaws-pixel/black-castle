@@ -3,7 +3,6 @@ import { useState } from "react";
 import { ChatBubble } from "@/components/ChatBubble";
 import { BookingFlow } from "@/components/BookingFlow";
 import heroShop from "@/assets/hero-shop.jpg";
-import test1Img from "@/assets/barber-test1.jpg";
 import { Scissors } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -17,7 +16,7 @@ const BARBERS = [
     role: "Master Barber",
     price: 35000,
     bio: "Fifteen years behind the chair. Precision fades, straight-razor shaves, and the kind of quiet confidence you only get from thousands of haircuts.",
-    img: test1Img,
+    img: heroShop,
   },
   {
     id: "test2",
@@ -25,7 +24,7 @@ const BARBERS = [
     role: "Senior Barber",
     price: 25000,
     bio: "Modern textures, sharp lineups, and clean beard work. test2 brings a fresh eye and steady hand — his chair is the one for a bold new look.",
-    img: test1Img,
+    img: heroShop,
   },
   {
     id: "test3",
@@ -33,7 +32,7 @@ const BARBERS = [
     role: "Senior Barber",
     price: 25000,
     bio: "Classic scissor cuts and skin fades with a friendly, easy chair-side manner. test3 will make you comfortable before you even sit down.",
-    img: test1Img,
+    img: heroShop,
   },
 ];
 
