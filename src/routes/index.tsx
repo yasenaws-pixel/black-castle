@@ -3,9 +3,7 @@ import { useState } from "react";
 import { ChatBubble } from "@/components/ChatBubble";
 import { BookingFlow } from "@/components/BookingFlow";
 import heroShop from "@/assets/hero-shop.jpg";
-import test1 from "@/assets/barber-test1.jpg";
-import aliImg from "@/assets/barber-test2.jpg";
-import yasImg from "@/assets/barber-test3.jpg";
+import test1Img from "@/assets/barber-test1.jpg";
 import { Scissors } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -17,25 +15,25 @@ const BARBERS = [
     id: "test1",
     name: "test1",
     role: "Master Barber",
-    price: 25000,
+    price: 35000,
     bio: "Fifteen years behind the chair. Precision fades, straight-razor shaves, and the kind of quiet confidence you only get from thousands of haircuts.",
-    img: test1,
+    img: test1Img,
   },
   {
     id: "test2",
     name: "test2",
     role: "Senior Barber",
     price: 25000,
-    bio: "Modern textures, sharp lineups, and clean beard work. Ali brings a fresh eye and steady hand — his chair is the one for a bold new look.",
-    img: aliImg,
+    bio: "Modern textures, sharp lineups, and clean beard work. test2 brings a fresh eye and steady hand — his chair is the one for a bold new look.",
+    img: test1Img,
   },
   {
     id: "test3",
     name: "test3",
     role: "Senior Barber",
     price: 25000,
-    bio: "Classic scissor cuts and skin fades with a friendly, easy chair-side manner. Yas will make you comfortable before you even sit down.",
-    img: yasImg,
+    bio: "Classic scissor cuts and skin fades with a friendly, easy chair-side manner. test3 will make you comfortable before you even sit down.",
+    img: test1Img,
   },
 ];
 
