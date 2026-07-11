@@ -9,9 +9,9 @@ const corsHeaders = {
 const EVENT_TYPE_IDS: Record<string, Record<string, string>> = {
   haircut: {
     any: "6271983",
-    muntadher: "6271983",
-    ali: "6271983",
-    yas: "6271983",
+    test1: "6271983",
+    test2: "6271983",
+    test3: "6271983",
   },
 };
 
