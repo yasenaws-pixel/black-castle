@@ -14,9 +14,9 @@ Deno.serve(async (req) => {
     ],
     barbers: [
       { id: "any", name_en: "Any available barber", name_ar: "أي حلاق متاح" },
-      { id: "muntadher", name_en: "Muntadher", price_iqd: 35000 },
-      { id: "ali", name_en: "Ali", price_iqd: 25000 },
-      { id: "yas", name_en: "Yas", price_iqd: 25000 },
+      { id: "test1", name_en: "test1", price_iqd: 25000 },
+      { id: "test2", name_en: "test2", price_iqd: 25000 },
+      { id: "test3", name_en: "test3", price_iqd: 25000 },
     ],
     hours: "Sun–Thu 10:00–22:00, Closed Saturday and Friday",
   };
